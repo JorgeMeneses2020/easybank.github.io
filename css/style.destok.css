@@ -402,19 +402,22 @@ footer #logos img {
         height: 630px;
 
     }
+
     #info #text {
         vertical-align: bottom;
         padding-top: 316px;
 
     }
-    #info #text h1{
+
+    #info #text h1 {
         margin: 0 auto;
         width: 80%;
-            font-size:40px  ;
-        }
-    #info #text p{
+        font-size: 40px;
+    }
+
+    #info #text p {
         margin: 30px auto;
-       
+
 
         width: 85%;
         font-size: 15px;
@@ -441,24 +444,29 @@ footer #logos img {
         width: 100%;
         height: 412px;
     }
-    #info input[type="button"]{
-        margin-left:24.3%;
+
+    #info input[type="button"] {
+        margin-left: 24.3%;
     }
 
-    #cards{
+    #cards {
         padding-top: 60px;
     }
-    #heading{
+
+    #heading {
         text-align: center;
         margin-bottom: 53px;
     }
-    #heading h2{
+
+    #heading h2 {
         font-size: 32px;
     }
-    #cards{
+
+    #cards {
         height: auto;
         padding-bottom: 20px;
     }
+
     #cards p {
         margin-top: 20px;
         margin-left: 9%;
@@ -466,23 +474,28 @@ footer #logos img {
         font-size: 14px;
         color: #B2B3B8;
         line-height: 25px;
-      }
-    #tarjetas{
+    }
+
+    #tarjetas {
         display: block;
         text-align: center;
     }
-    #tarjetas .card{
+
+    #tarjetas .card {
         margin: 0 auto;
         padding-bottom: 40px;
     }
-    #tarjetas .card .img{
-        margin-bottom:25px;
+
+    #tarjetas .card .img {
+        margin-bottom: 25px;
     }
-    #tarjetas .card h2{
-        font-size:20px;
+
+    #tarjetas .card h2 {
+        font-size: 20px;
         margin: 0 0 20px 0;
     }
-    #news{
+
+    #news {
         margin: 0 auto;
         padding: 0;
         text-align: center;
@@ -491,76 +504,97 @@ footer #logos img {
         padding-bottom: 80px;
 
     }
-    #news h1{
-        padding:95px 0 0px 0;;
+
+    #news h1 {
+        padding: 95px 0 0px 0;
+        font-size: 34px;
     }
-    #news #articles{
+
+    #news #articles {
         margin: 0 auto;
-        display:block;
+        display: block;
         width: 85%;
     }
-    #news #articles .article{
+
+    #news #articles .article {
         margin: 0 auto;
         text-align: left;
+        margin-bottom: 15px;
     }
 
-footer{
-    padding:0;
-    
-    display: block;
-    height: auto;
+    footer {
+        padding: 0;
 
-    padding-bottom: 40px;
-}
-footer #logos{
-    width: 100%;
-    text-align: center;
-    
-}
-footer #logos .logo{
-    margin: 30px 0;
-}
-footer #logos img {
-    margin-right: 20px;
-  }
-  footer #logos #redes img:first-child{
-    margin-left: 25px;
-  }
-  footer #menues{
-    display: block;
-    margin: 0 auto;
-    padding: 0;
-    text-align: center;
-  }
-  footer #menues #menu3 ul, footer #menues #menu2 ul{
-    margin: 0 auto;
-    padding: 0;
-    height: auto;
-    
-  }
-  #menu2, #menu3{
-    height: auto;
-  }
-  footer #menues #menu2 ul{
-    padding-top: 40px;
-  }
-  footer #menues #menu2 ul li{
-    height: 40px;
-  
-  }
-  footer #menues #menu2 ul li a{
-    display: block;
-  
-  }
-  #boton input[type="button"], #boton span{
-    margin: 0 auto;
-  }
-  #boton input[type="button"]{
-    margin-bottom: 20px;
-  }
-  #boton{
-    text-align: center;
-  }
+        display: block;
+        height: auto;
+
+        padding-bottom: 40px;
+    }
+
+    footer #logos {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    footer #logos .logo {
+        margin: 30px 0;
+    }
+
+    footer #logos img {
+        margin-right: 20px;
+    }
+
+    footer #logos #redes img:first-child {
+        margin-left: 25px;
+    }
+
+    footer #menues {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    footer #menues #menu3 ul,
+    footer #menues #menu2 ul {
+        margin: 0 auto;
+        padding: 0;
+        height: auto;
+
+    }
+
+    #menu2,
+    #menu3 {
+        height: auto;
+    }
+
+    footer #menues #menu2 ul {
+        padding-top: 40px;
+    }
+
+    footer #menues #menu2 ul li {
+        height: 40px;
+
+    }
+
+    footer #menues #menu2 ul li a {
+        display: block;
+
+    }
+
+    #boton input[type="button"],
+    #boton span {
+        margin: 0 auto;
+    }
+
+    #boton input[type="button"] {
+        margin-bottom: 20px;
+    }
+
+    #boton {
+        text-align: center;
+    }
 }
 
 
