@@ -1,0 +1,568 @@
+@font-face {
+    font-family: 'Public Sans';
+    src: url('./Public_Sans/static/PublicSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    font-family: 'Public Sans';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#hamburguesa,
+#close {
+    display: none;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header {
+    font-family: 'Public Sans';
+    width: 100%;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+
+
+}
+
+header #logo {
+    padding-left: 28.4%;
+    line-height: 85px;
+}
+
+header #menu {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    display: block;
+    text-align: center;
+    height: 100%;
+    line-height: 80px;
+}
+
+header #menu li {
+    display: inline-block;
+    margin-right: 2.97%;
+
+    height: 100%;
+
+}
+
+header #menu li a {
+
+    display: block;
+    text-decoration: none;
+    color: #B2B3B8;
+    font-size: 15px;
+
+}
+
+header #menu li:hover a {
+    border-bottom: solid #3BC977;
+    color: #5a5b60;
+}
+
+header #button {
+    text-align: center;
+    line-height: 80px;
+
+}
+
+input[type="button"] {
+    cursor: pointer;
+    /* margin-left: 55%; */
+    font-weight: 400;
+    font-family: 'Public Sans';
+    font-size: 15px;
+    color: #FFFFFF;
+    border: none;
+    background: rgb(132, 226, 168);
+    background: linear-gradient(90deg, rgba(132, 226, 168, 1) 0%, rgba(128, 218, 200, 1) 35%, rgba(129, 214, 219, 1) 100%);
+    border-radius: 25px;
+    padding: 12px 30px;
+}
+
+input[type="button"]:hover {
+
+    background: rgb(49, 208, 107);
+    background: linear-gradient(90deg, rgba(49, 208, 107, 1) 0%, rgba(45, 198, 155, 1) 35%, rgba(45, 198, 155, 1) 100%);
+
+}
+
+#info {
+    width: 100%;
+    height: 680px;
+    background-color: #FAFAFA;
+    background-image: url(../images/bg-intro-desktop.svg);
+    background-position-x: 601%;
+    background-position-y: 74%;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    overflow-wrap: initial;
+    font-family: 'Public Sans';
+
+
+}
+
+#info #text {
+    margin: 0 auto;
+    width: 432px;
+    padding-top: 180px;
+
+}
+
+#info #text h1 {
+    font-size: 55px;
+    width: 100%;
+    color: #2E2F4A;
+    font-weight: 400;
+    margin: 0 0 42px 0;
+}
+
+#info #text p {
+    font-size: 17px;
+    color: #B2B3B8;
+    margin-bottom: 44px;
+}
+
+#info #img img {
+    margin-top: -115px;
+    clip-path: inset(115px 130px 0 0);
+    margin-left: 46px;
+}
+
+#info input[type="button"] {
+    margin: 0 auto;
+}
+
+#heading {
+    margin-bottom: 80px;
+}
+
+#cards {
+    padding-top: 105px;
+    width: 100%;
+    height: 564px;
+    background-color: #F4F5F7;
+    font-family: 'Public Sans';
+}
+
+#cards h2 {
+    width: 82%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 400;
+    color: #1E2037;
+
+}
+
+#cards p {
+    margin-left: 9%;
+    width: 45%;
+    font-size: 17px;
+    color: #B2B3B8;
+}
+
+#tarjetas {
+    margin-left: 9%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#tarjetas .card {
+    margin-right: 15px;
+}
+
+#tarjetas .card h2 {
+    margin: 0 0 46px 0;
+    width: 100%;
+    font-size: 26px;
+}
+
+#tarjetas .card p {
+    margin: 0 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+#tarjetas .card .img {
+    margin-bottom: 40px;
+}
+
+#tarjetas .card .img img {
+    width: 70px;
+    height: 70px;
+}
+
+#news {
+    margin: 0 0;
+    padding-left: 9%;
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 730px;
+    font-family: 'Public Sans';
+}
+
+#news #articles {
+    width: 80%;
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+#news #articles .article {
+    border-radius: 10px;
+    margin-right: 30px;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+#news #articles .article img {
+    width: 100%;
+
+}
+
+#news h1 {
+    margin: 0 0;
+    padding: 100px 0 60px 0;
+    font-family: 'Public Sans';
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.article #texto {
+    padding: 0 25px;
+}
+
+.article #texto span {
+    font-size: 10px;
+    color: #C0C1C5;
+}
+
+.article #texto h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7B7B7D;
+}
+
+.article #texto p {
+    font-size: 12px;
+    line-height: 1.5em;
+    color: #ABACB2;
+}
+
+footer {
+    padding: 50px 0 0 9%;
+    height: 140px;
+    background-color: #2D314E;
+    display: grid;
+    grid-template-columns: 20% 26% 54%;
+}
+
+#menues {
+    width: 100%;
+    display: flex;
+    grid-template-columns: 50% 50%;
+}
+
+#menu2,
+#menu3 {
+    width: 100%;
+    margin-top: 0;
+    list-style: none;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+#menu2 ul,
+#menu3 ul {
+    margin-top: 0;
+    list-style: none;
+}
+
+footer #menu2 li,
+footer #menu3 li {
+    height: 40px;
+}
+
+footer #menu2 li a,
+footer #menu3 li a {
+    display: block;
+    font-family: 'Public Sans';
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer #logos img {
+    margin-right: 10px;
+}
+
+.logo {
+    fill: #FFFFFF !important;
+    margin-bottom: 55px;
+}
+
+
+#boton input[type="button"] {
+    margin-bottom: 40px;
+    margin-left: 48%;
+}
+
+#boton span {
+    margin-left: 40%;
+    font-family: 'Public Sans';
+    color: #999DB6;
+
+}
+
+/* RESPONSIVE MOBILE */
+
+@media(max-width:375px) {
+    /* header {
+        margin: 0 auto;
+        width: 100%;
+    } */
+
+    #hamburguesa,
+    #close {
+        position: absolute;
+        right: 6.9%;
+        top: 28px;
+    }
+
+    #hamburguesa {
+        display: block;
+    }
+
+    header #logo {
+        padding-left: 21.4%;
+    }
+
+    header input[type="button"] {
+        display: none;
+    }
+
+    header #menu {
+
+        display: none;
+        position: absolute;
+        width: 88%;
+        height: 264px;
+        background-color: #FFFFFF;
+        left: 6.4%;
+        top: 90px;
+        z-index: 10;
+        border-radius: 10px;
+
+    }
+
+
+
+    header #menu li {
+
+        margin: 0 auto;
+        height: 45px;
+        display: block;
+        line-height: 45px;
+    }
+
+    header #menu li:first-child {
+        margin-top: 20px;
+    }
+
+    header #menu li a {
+        font-size: 18px;
+        color: #1F2131;
+    }
+
+    #info {
+        width: 100%;
+        display: block;
+        background-image: url(../images/bg-intro-mobile.svg);
+        background-position-x: 601%;
+        background-position-y: -27%;
+        height: 630px;
+
+    }
+    #info #text {
+        vertical-align: bottom;
+        padding-top: 316px;
+
+    }
+    #info #text h1{
+        margin: 0 auto;
+        width: 80%;
+            font-size:40px  ;
+        }
+    #info #text p{
+        margin: 30px auto;
+       
+
+        width: 85%;
+        font-size: 15px;
+    }
+
+    #info #img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        width: 330px;
+        height: 340px;
+        overflow: hidden;
+        margin-left: 6.4%;
+
+    }
+
+    #info #img img {
+
+        clip-path: inset(0 0 0 0);
+        margin-left: 0;
+        margin: -119px 0 0 0;
+        width: 100%;
+        height: 412px;
+    }
+    #info input[type="button"]{
+        margin-left:24.3%;
+    }
+
+    #cards{
+        padding-top: 60px;
+    }
+    #heading{
+        text-align: center;
+        margin-bottom: 53px;
+    }
+    #heading h2{
+        font-size: 32px;
+    }
+    #cards{
+        height: auto;
+        padding-bottom: 20px;
+    }
+    #cards p {
+        margin-top: 20px;
+        margin-left: 9%;
+        width: 79%;
+        font-size: 14px;
+        color: #B2B3B8;
+        line-height: 25px;
+      }
+    #tarjetas{
+        display: block;
+        text-align: center;
+    }
+    #tarjetas .card{
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+    #tarjetas .card .img{
+        margin-bottom:25px;
+    }
+    #tarjetas .card h2{
+        font-size:20px;
+        margin: 0 0 20px 0;
+    }
+    #news{
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        display: block;
+        height: auto;
+        padding-bottom: 80px;
+
+    }
+    #news h1{
+        padding:95px 0 0px 0;;
+    }
+    #news #articles{
+        margin: 0 auto;
+        display:block;
+        width: 85%;
+    }
+    #news #articles .article{
+        margin: 0 auto;
+        text-align: left;
+    }
+
+footer{
+    padding:0;
+    
+    display: block;
+    height: auto;
+
+    padding-bottom: 40px;
+}
+footer #logos{
+    width: 100%;
+    text-align: center;
+    
+}
+footer #logos .logo{
+    margin: 30px 0;
+}
+footer #logos img {
+    margin-right: 20px;
+  }
+  footer #logos #redes img:first-child{
+    margin-left: 25px;
+  }
+  footer #menues{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+  }
+  footer #menues #menu3 ul, footer #menues #menu2 ul{
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    
+  }
+  #menu2, #menu3{
+    height: auto;
+  }
+  footer #menues #menu2 ul{
+    padding-top: 40px;
+  }
+  footer #menues #menu2 ul li{
+    height: 40px;
+  
+  }
+  footer #menues #menu2 ul li a{
+    display: block;
+  
+  }
+  #boton input[type="button"], #boton span{
+    margin: 0 auto;
+  }
+  #boton input[type="button"]{
+    margin-bottom: 20px;
+  }
+  #boton{
+    text-align: center;
+  }
+}
+
+
+
+/* FIN RESPONSIVE MOBILE */
