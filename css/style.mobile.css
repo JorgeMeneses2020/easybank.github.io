@@ -1,0 +1,267 @@
+/* RESPONSIVE MOBILE */
+
+@media(max-width:490px) {
+    /* header {
+        margin: 0 auto;
+        width: 100%;
+    } */
+
+    #hamburguesa,
+    #close {
+        position: absolute;
+        right: 6.9%;
+        top: 28px;
+    }
+
+    #hamburguesa {
+        display: block;
+    }
+
+    header #logo {
+        padding-left: 21.4%;
+    }
+
+    header input[type="button"] {
+        display: none;
+    }
+
+    header #menu {
+
+        display: none;
+        position: absolute;
+        width: 88%;
+        height: 264px;
+        background-color: #FFFFFF;
+        left: 6.4%;
+        top: 90px;
+        z-index: 10;
+        border-radius: 10px;
+
+    }
+
+
+
+    header #menu li {
+
+        margin: 0 auto;
+        height: 45px;
+        display: block;
+        line-height: 45px;
+    }
+
+    header #menu li:first-child {
+        margin-top: 20px;
+    }
+
+    header #menu li a {
+        font-size: 18px;
+        color: #1F2131;
+    }
+
+    #info {
+        width: 100%;
+        display: block;
+        background-image: url(../images/bg-intro-mobile.svg);
+        background-position-x: 601%;
+        background-position-y: -27%;
+        height: 630px;
+
+    }
+
+    #info #text {
+        vertical-align: bottom;
+        padding-top: 316px;
+
+    }
+
+    #info #text h1 {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 40px;
+    }
+
+    #info #text p {
+        margin: 30px auto;
+
+
+        width: 85%;
+        font-size: 15px;
+    }
+
+    #info #img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        width: 330px;
+        height: 340px;
+        overflow: hidden;
+        margin-left: 6.4%;
+
+    }
+
+    #info #img img {
+
+        clip-path: inset(0 0 0 0);
+        margin-left: 0;
+        margin: -119px 0 0 0;
+        width: 100%;
+        height: 412px;
+    }
+
+    #info input[type="button"] {
+        margin-left: 24.3%;
+    }
+
+    #cards {
+        padding-top: 60px;
+    }
+
+    #heading {
+        text-align: center;
+        margin-bottom: 53px;
+    }
+
+    #heading h2 {
+        font-size: 32px;
+    }
+
+    #cards {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    #cards p {
+        margin-top: 20px;
+        margin-left: 9%;
+        width: 79%;
+        font-size: 14px;
+        color: #B2B3B8;
+        line-height: 25px;
+    }
+
+    #tarjetas {
+        display: block;
+        text-align: center;
+    }
+
+    #tarjetas .card {
+        margin: 0 auto;
+        padding-bottom: 40px;
+    }
+
+    #tarjetas .card .img {
+        margin-bottom: 25px;
+    }
+
+    #tarjetas .card h2 {
+        font-size: 20px;
+        margin: 0 0 20px 0;
+    }
+
+    #news {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        display: block;
+        height: auto;
+        padding-bottom: 80px;
+
+    }
+
+    #news h1 {
+        padding: 95px 0 0px 0;
+        font-size: 34px;
+    }
+
+    #news #articles {
+        margin: 0 auto;
+        display: block;
+        width: 85%;
+    }
+
+    #news #articles .article {
+        margin: 0 auto;
+        text-align: left;
+        margin-bottom: 15px;
+    }
+
+    footer {
+        padding: 0;
+
+        display: block;
+        height: auto;
+
+        padding-bottom: 40px;
+    }
+
+    footer #logos {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    footer #logos .logo {
+        margin: 30px 0;
+    }
+
+    footer #logos img {
+        margin-right: 20px;
+    }
+
+    footer #logos #redes img:first-child {
+        margin-left: 25px;
+    }
+
+    footer #menues {
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    footer #menues #menu3 ul,
+    footer #menues #menu2 ul {
+        margin: 0 auto;
+        padding: 0;
+        height: auto;
+
+    }
+
+    #menu2,
+    #menu3 {
+        height: auto;
+    }
+
+    footer #menues #menu2 ul {
+        padding-top: 40px;
+    }
+
+    footer #menues #menu2 ul li {
+        height: 40px;
+
+    }
+
+    footer #menues #menu2 ul li a {
+        display: block;
+
+    }
+
+    #boton input[type="button"],
+    #boton span {
+        margin: 0 auto;
+    }
+
+    #boton input[type="button"] {
+        margin-bottom: 20px;
+    }
+
+    #boton {
+        text-align: center;
+    }
+}
+
+
+
+/* FIN RESPONSIVE MOBILE */
